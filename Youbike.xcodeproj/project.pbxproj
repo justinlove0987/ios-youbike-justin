@@ -1,0 +1,450 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D0784196278D4783006163F0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0784195278D4783006163F0 /* AppDelegate.swift */; };
+		D0784198278D4783006163F0 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0784197278D4783006163F0 /* SceneDelegate.swift */; };
+		D078419A278D4783006163F0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0784199278D4783006163F0 /* ViewController.swift */; };
+		D078419D278D4783006163F0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D078419B278D4783006163F0 /* Main.storyboard */; };
+		D078419F278D4788006163F0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D078419E278D4788006163F0 /* Assets.xcassets */; };
+		D07841A2278D4788006163F0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D07841A0278D4788006163F0 /* LaunchScreen.storyboard */; };
+		D07841AD278D480F006163F0 /* YoubikeData.swift in Sources */ = {isa = PBXBuildFile; fileRef = D07841AC278D480F006163F0 /* YoubikeData.swift */; };
+		D07841AF278D496B006163F0 /* YoubikeManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = D07841AE278D496B006163F0 /* YoubikeManager.swift */; };
+		D07841B1278D4C0F006163F0 /* MainController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D07841B0278D4C0F006163F0 /* MainController.swift */; };
+		D07841B4278D58D3006163F0 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = D07841B3278D58D3006163F0 /* Extensions.swift */; };
+		D07841B6278D5B30006163F0 /* YoubikeModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D07841B5278D5B30006163F0 /* YoubikeModel.swift */; };
+		D07841B8278D6835006163F0 /* InformationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D07841B7278D6835006163F0 /* InformationController.swift */; };
+		D07841EF278EB65C006163F0 /* Model.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = D07841ED278EB65C006163F0 /* Model.xcdatamodeld */; };
+		D07841F1278EF5BD006163F0 /* CoreDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = D07841F0278EF5BD006163F0 /* CoreDataManager.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		D0784192278D4783006163F0 /* Youbike.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Youbike.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D0784195278D4783006163F0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D0784197278D4783006163F0 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		D0784199278D4783006163F0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		D078419C278D4783006163F0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D078419E278D4788006163F0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D07841A1278D4788006163F0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D07841A3278D4788006163F0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D07841AC278D480F006163F0 /* YoubikeData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YoubikeData.swift; sourceTree = "<group>"; };
+		D07841AE278D496B006163F0 /* YoubikeManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YoubikeManager.swift; sourceTree = "<group>"; };
+		D07841B0278D4C0F006163F0 /* MainController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainController.swift; sourceTree = "<group>"; };
+		D07841B3278D58D3006163F0 /* Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		D07841B5278D5B30006163F0 /* YoubikeModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YoubikeModel.swift; sourceTree = "<group>"; };
+		D07841B7278D6835006163F0 /* InformationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InformationController.swift; sourceTree = "<group>"; };
+		D07841EE278EB65C006163F0 /* Model.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Model.xcdatamodel; sourceTree = "<group>"; };
+		D07841F0278EF5BD006163F0 /* CoreDataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataManager.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D078418F278D4783006163F0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D0784189278D4783006163F0 = {
+			isa = PBXGroup;
+			children = (
+				D0784194278D4783006163F0 /* Youbike */,
+				D0784193278D4783006163F0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D0784193278D4783006163F0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D0784192278D4783006163F0 /* Youbike.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D0784194278D4783006163F0 /* Youbike */ = {
+			isa = PBXGroup;
+			children = (
+				D07841A9278D47A1006163F0 /* Model */,
+				D07841AA278D47A9006163F0 /* Controller */,
+				D07841AB278D47B3006163F0 /* View */,
+				D07841B2278D58C7006163F0 /* Utils */,
+				D0784195278D4783006163F0 /* AppDelegate.swift */,
+				D0784197278D4783006163F0 /* SceneDelegate.swift */,
+				D0784199278D4783006163F0 /* ViewController.swift */,
+				D078419B278D4783006163F0 /* Main.storyboard */,
+				D078419E278D4788006163F0 /* Assets.xcassets */,
+				D07841A0278D4788006163F0 /* LaunchScreen.storyboard */,
+				D07841A3278D4788006163F0 /* Info.plist */,
+			);
+			path = Youbike;
+			sourceTree = "<group>";
+		};
+		D07841A9278D47A1006163F0 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				D07841AE278D496B006163F0 /* YoubikeManager.swift */,
+				D07841AC278D480F006163F0 /* YoubikeData.swift */,
+				D07841B5278D5B30006163F0 /* YoubikeModel.swift */,
+				D07841ED278EB65C006163F0 /* Model.xcdatamodeld */,
+				D07841F0278EF5BD006163F0 /* CoreDataManager.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		D07841AA278D47A9006163F0 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				D07841B0278D4C0F006163F0 /* MainController.swift */,
+				D07841B7278D6835006163F0 /* InformationController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		D07841AB278D47B3006163F0 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		D07841B2278D58C7006163F0 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				D07841B3278D58D3006163F0 /* Extensions.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D0784191278D4783006163F0 /* Youbike */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D07841A6278D4788006163F0 /* Build configuration list for PBXNativeTarget "Youbike" */;
+			buildPhases = (
+				D078418E278D4783006163F0 /* Sources */,
+				D078418F278D4783006163F0 /* Frameworks */,
+				D0784190278D4783006163F0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Youbike;
+			productName = Youbike;
+			productReference = D0784192278D4783006163F0 /* Youbike.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D078418A278D4783006163F0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1320;
+				LastUpgradeCheck = 1320;
+				TargetAttributes = {
+					D0784191278D4783006163F0 = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
+				};
+			};
+			buildConfigurationList = D078418D278D4783006163F0 /* Build configuration list for PBXProject "Youbike" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D0784189278D4783006163F0;
+			productRefGroup = D0784193278D4783006163F0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D0784191278D4783006163F0 /* Youbike */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D0784190278D4783006163F0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D07841A2278D4788006163F0 /* LaunchScreen.storyboard in Resources */,
+				D078419F278D4788006163F0 /* Assets.xcassets in Resources */,
+				D078419D278D4783006163F0 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D078418E278D4783006163F0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D078419A278D4783006163F0 /* ViewController.swift in Sources */,
+				D0784196278D4783006163F0 /* AppDelegate.swift in Sources */,
+				D07841AD278D480F006163F0 /* YoubikeData.swift in Sources */,
+				D07841AF278D496B006163F0 /* YoubikeManager.swift in Sources */,
+				D07841B1278D4C0F006163F0 /* MainController.swift in Sources */,
+				D0784198278D4783006163F0 /* SceneDelegate.swift in Sources */,
+				D07841B8278D6835006163F0 /* InformationController.swift in Sources */,
+				D07841F1278EF5BD006163F0 /* CoreDataManager.swift in Sources */,
+				D07841B6278D5B30006163F0 /* YoubikeModel.swift in Sources */,
+				D07841B4278D58D3006163F0 /* Extensions.swift in Sources */,
+				D07841EF278EB65C006163F0 /* Model.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		D078419B278D4783006163F0 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D078419C278D4783006163F0 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D07841A0278D4788006163F0 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D07841A1278D4788006163F0 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D07841A4278D4788006163F0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D07841A5278D4788006163F0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D07841A7278D4788006163F0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 5H3B76C82P;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Youbike/Info.plist;
+				INFOPLIST_KEY_NSLocationAlwaysAndWhenInUseUsageDescription = "";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UIUserInterfaceStyle = Light;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = justin.Youbike;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		D07841A8278D4788006163F0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 5H3B76C82P;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Youbike/Info.plist;
+				INFOPLIST_KEY_NSLocationAlwaysAndWhenInUseUsageDescription = "";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UIUserInterfaceStyle = Light;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = justin.Youbike;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D078418D278D4783006163F0 /* Build configuration list for PBXProject "Youbike" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D07841A4278D4788006163F0 /* Debug */,
+				D07841A5278D4788006163F0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D07841A6278D4788006163F0 /* Build configuration list for PBXNativeTarget "Youbike" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D07841A7278D4788006163F0 /* Debug */,
+				D07841A8278D4788006163F0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		D07841ED278EB65C006163F0 /* Model.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				D07841EE278EB65C006163F0 /* Model.xcdatamodel */,
+			);
+			currentVersion = D07841EE278EB65C006163F0 /* Model.xcdatamodel */;
+			path = Model.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = D078418A278D4783006163F0 /* Project object */;
+}

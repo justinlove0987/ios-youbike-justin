@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="19574" systemVersion="20G165" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
+    <entity name="YoubikeCoreData" representedClassName=".YoubikeCoreData" syncable="YES" codeGenerationType="class">
+        <attribute name="act" optional="YES" attributeType="String"/>
+        <attribute name="ar" optional="YES" attributeType="String"/>
+        <attribute name="aren" optional="YES" attributeType="String"/>
+        <attribute name="bemp" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="infoDate" optional="YES" attributeType="String"/>
+        <attribute name="infoTime" optional="YES" attributeType="String"/>
+        <attribute name="lat" optional="YES" attributeType="Double" defaultValueString="0.0" usesScalarValueType="YES"/>
+        <attribute name="lng" optional="YES" attributeType="Double" defaultValueString="0.0" usesScalarValueType="YES"/>
+        <attribute name="mday" optional="YES" attributeType="String"/>
+        <attribute name="sarea" optional="YES" attributeType="String"/>
+        <attribute name="sareaen" optional="YES" attributeType="String"/>
+        <attribute name="sbi" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="sna" optional="YES" attributeType="String"/>
+        <attribute name="snaen" optional="YES" attributeType="String"/>
+        <attribute name="sno" optional="YES" attributeType="String"/>
+        <attribute name="srcUpdateTime" optional="YES" attributeType="String"/>
+        <attribute name="tot" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="updateTime" optional="YES" attributeType="String"/>
+    </entity>
+    <elements>
+        <element name="YoubikeCoreData" positionX="-54" positionY="-9" width="128" height="299"/>
+    </elements>
+</model>
